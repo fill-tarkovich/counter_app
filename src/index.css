@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  background-color: rgba(57, 133, 253, 0.829);
+  font-size: 0.5em;
+  padding: 1.5em;
+  color: white;
+}
+
+footer {
+  background-color: rgba(57, 133, 253, 0.829);
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 0.5em;
+  padding: 1.5em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  margin: 5% 0;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgba(74, 159, 199, 0.883);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  margin-bottom: 5%;
+}
+
+.buttons {
+  width: 640px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button {
+  width: 100px;
+  height: 35px;
+  color: inherit;
+  background-color: rgba(74, 159, 199, 0.883);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
